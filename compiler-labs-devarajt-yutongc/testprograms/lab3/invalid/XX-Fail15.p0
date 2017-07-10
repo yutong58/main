@@ -1,7 +1,0 @@
-class A {
-    def foo(a : Int, ) : retType = {
-        12
-    }
-}
-
-object Main extends App { println("42") }

@@ -1,6 +1,0 @@
-class A {
-    var a  : Int = 0
-    var b : Boolean;
-}
-
-object Main extends App { println("42") }
