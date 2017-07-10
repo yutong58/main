@@ -1,0 +1,64 @@
+
+
+          NILSSON INSTRUCTIONAL COMPUTER (NIC)
+
+
+This directory contains a simulator of the Nilsson Instructional
+Computer (NIS), an assembler (NAS), a manual, and example programs.
+
+This project is based on an example from J. Glenn Brookshear. Computer
+science: an overview, fifth edition, Addison-Wesley, 1997.
+
+
+                  USING NIC AND NAS
+
+To start the NIC, simply execute:
+
+    java -jar nic.jar
+
+and to compile an assembler file program.as into a corresponding
+"executable" that can be loaded into the NIC, execute:
+
+    java -jar nas.jar program.as
+
+For full usage information, simply execute:
+
+    java -jar nic.jar -h
+    java -jar nas.jar -h
+
+
+                 MANUAL AND EXAMPLES
+
+The manual is found in doc/manual/manual.pdf and examples are found in
+doc/examples.
+
+
+                      BUILDING
+
+If there is a mismatch between Java versions, then simply execute:
+
+    clean
+    make
+
+Consult the Makefile for more information.
+
+
+                  REMARKS ABOUT THE CODE
+
+The code mostly adheres to traditional coding standards. The main
+exception is that some variables are named in capitals to emphasize
+that these correspond to constant values in physical computers.
+
+The code is intentionally commented in an exaggerated way for didactic
+purposes: to relate components of the NIC to parts of a physical
+computer, to enable students to experiment and modify the software,
+and as a general show case of carefully commented code.
+
+
+                     FUTURE WORK
+
+(1) The software can still be tested more carefully.
+
+(2) Next version will allow "compiling" assembler to a Java file that
+    can be run in Kattis.
+

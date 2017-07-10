@@ -1,0 +1,37 @@
+
+1997-04-02 Stefan Nilsson <snilsson@nada.kth.se>
+
+	* Version 1.0, 2 April 1997
+
+2003-04-01 Stefan Nilsson <snilsson@nada.kth.se>
+
+	* Fixed Rotate and Move
+
+2007-08-29 Stefan Nilsson <snilsson@nada.kth.se>
+
+	* Removed deprecated features from JDK 1.0.*
+
+2007-08-31 Stefan Nilsson <snilsson@nada.kth.se>
+
+	* Updated to Swing user interface
+
+2007-11-29 Stefan Nilsson <snilsson@nada.kth.se>
+
+	* Version 1.1
+
+2009-09-23 Stefan Nilsson <snilsson@nada.kth.se>
+
+	* Using interrupt mechanism in runner thread
+
+2011-01-31 Stefan Nilsson <snilsson@nada.kth.se>
+
+	* New instructions, assembler, stand alone version, hg
+	* Version 1.2
+
+2017-03-17 Douglas Wikstrom <dog@kth.se>
+
+	* Refactoring, comprehensive rewrite, and commenting of NIC for
+	use in education.
+	* Added status register to user interface.
+	* Added feature to interrupt non-interactive execution.
+	* Version 1.3
