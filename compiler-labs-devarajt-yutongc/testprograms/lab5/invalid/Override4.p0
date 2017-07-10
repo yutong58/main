@@ -1,0 +1,12 @@
+class C {
+  def foo(): Int = {3}
+}
+
+class B extends C {
+  override def foo(): String = {"Abrakadabra"}
+}
+
+object Main extends App {
+  //println(new B().foo())
+  println(true || (1/0 == 1))
+}

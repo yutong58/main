@@ -1,0 +1,9 @@
+class Fact {
+    def computeFactorial(num : Int) : Int = {
+        num
+    }
+}
+
+object Main extends App {
+    1
+}
